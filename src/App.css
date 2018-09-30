@@ -1,11 +1,12 @@
 .App {
     text-align: center;
-  display: grid;
+    display: grid;
 }
 
 .App-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 80px;
+
 }
 
 .App-header {
@@ -13,6 +14,7 @@
     height: 150px;
     padding: 20px;
     color: black;
+    font-size: xx-large;
 }
 
 .App-title {
@@ -21,18 +23,31 @@
 
 .App-intro {
     font-size: large;
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    padding: 20px;
 }
 
-.content {
-  font-size: medium;
-  grid-template-columns: 60% auto;
-  grid-template-rows: auto auto;
+.reci{
+  height: 50px;
+  padding: 50px;
+  font-size: large;
+  
+}
 
+.pic{
+    background-color: #faebd7;
+  padding: 50px
 
 }
 
-
-
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  }
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
